@@ -1,0 +1,74 @@
+{
+  animations: [
+    {
+      path: 'sampledata/ferret.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_44',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '5',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/ferret.fbx',
+    name: 'ferret',
+    recenter: 'root',
+    scale: 3.6997100000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\ferret.fbm\\5.png',
+      name: '5',
+      pipeline_name: 'ferret.fbm\\5.png',
+    },
+    {
+      file: 'sampledata\\ferret.fbm\\7.png',
+      name: '7',
+      pipeline_name: 'ferret.fbm\\7.png',
+    },
+  ],
+  version: '0.54:2',
+}

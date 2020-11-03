@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+ <fragment
+     android:id="@+id/fragment"
+     android:name="com.google.ar.sceneform.ux.ArFragment"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"></fragment>
+    <HorizontalScrollView
+        android:layout_width="398dp"
+        android:layout_height="117dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bear"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/bear" />
+
+            <ImageView
+                android:id="@+id/cat"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cat" />
+
+            <ImageView
+                android:id="@+id/cow"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cow" />
+
+            <ImageView
+                android:id="@+id/dog"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/dog" />
+
+            <ImageView
+                android:id="@+id/elephant"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/elephant" />
+
+            <ImageView
+                android:id="@+id/ferret"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ferret" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>
